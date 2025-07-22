@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "584731998596",
-    "project_id": "powercut-d2431",
-    "storage_bucket": "powercut-d2431.firebasestorage.app"
+    "project_number": "1051622853449",
+    "project_id": "powercut-bd328",
+    "storage_bucket": "powercut-bd328.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:584731998596:android:1d7ae921fcc014a72885d1",
+        "mobilesdk_app_id": "1:1051622853449:android:ac99096eb2437a40dce898",
         "android_client_info": {
           "package_name": "com.UnityTechnologies.com.unity.template.urpblank"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyArlwmI4nmh_ab7bDIIZZfhHe-hRTEXobE"
+          "current_key": ""
         }
       ],
       "services": {
