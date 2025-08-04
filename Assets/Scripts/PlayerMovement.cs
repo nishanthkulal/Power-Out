@@ -9,6 +9,8 @@ public class PlayerMovement : MonoBehaviour
     [Header("Ground Check")]
     [SerializeField] private float playerHeight;
     [SerializeField] private LayerMask groundMask;
+
+    [SerializeField] private FixedJoystick joystick;
     private bool isGrounded;
     private float horizontalInput;
     private float verticalInput;
@@ -37,6 +39,8 @@ public class PlayerMovement : MonoBehaviour
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
+        horizontalInput = joystick.Horizontal;
+        verticalInput = joystick.Vertical;
     }
     private void movePlayer()
     {
